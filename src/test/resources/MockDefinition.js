@@ -1,0 +1,1 @@
+define.oldSkin('mock','definition');
