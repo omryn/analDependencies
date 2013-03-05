@@ -48,7 +48,7 @@ function assert(value, field, assertion, message) {
     }
 
     if(!assertion) {
-        throw new Error('Assert error. aruments: <' + argsAsArray(arguments).join() + '>');
+        throw new Error('Assert internal error. arguments: <' + argsAsArray(arguments).join() + '>');
     }
 
     value = getValueToAssert(field, value);
@@ -71,7 +71,7 @@ assert.truethy = function (value) {
 };
 
 assert.inRange = function (min, max, excludeBoundaries) {
-    return function geaterThan(value) {
+    return function inRange(value) {
         return excludeBoundaries ?
             value > min && value < max :
             value >= min && value <= max;
@@ -79,7 +79,7 @@ assert.inRange = function (min, max, excludeBoundaries) {
 }
 
 assert.greaterThan = function (greaterThanValue) {
-    return function geaterThan(value) {
+    return function greaterThan(value) {
         return value > greaterThanValue;
     };
 };

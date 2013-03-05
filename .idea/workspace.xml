@@ -42,7 +42,7 @@
     <file path="/MediaManagerApi.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361964175933" ignored="false" />
     <file path="/PhotoGalleryGridDefaultSkin.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361983974241" ignored="false" />
     <file path="$PROJECT_DIR$/../alias/test/javascript/alias.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362056497503" ignored="false" />
-    <file path="/assert.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362485825690" ignored="false" />
+    <file path="/assert.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362486229973" ignored="false" />
     <file path="/fragment.js2" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362147856555" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,10 +107,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Analyzer.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Analyzer.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/javascript/Analyzer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="33" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+            <state line="47" column="38" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.59322035">
               <folding />
             </state>
           </provider>
@@ -134,10 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assert.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="assert.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/javascript/assert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="56" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.3559322">
+            <state line="73" column="27" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,7 +182,7 @@
       <file leaf-file-name="Analyzer.spec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/Analyzer.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="49" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+            <state line="17" column="40" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -221,8 +221,8 @@
         <option value="$PROJECT_DIR$/src/main/javascript/analyzers/oldSkin.js" />
         <option value="$PROJECT_DIR$/src/test/javascript/dependecies/MockDefineRunner.spec.js" />
         <option value="$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/Analyzer.js" />
         <option value="$PROJECT_DIR$/src/main/javascript/assert.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/Analyzer.js" />
       </list>
     </option>
   </component>
@@ -650,7 +650,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -813,13 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/Analyzer.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="49" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javascript/analyzers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -834,16 +827,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/Analyzer.js">
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/assert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+        <state line="73" column="27" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/assert.js">
+    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/Analyzer.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="56" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.3559322">
+        <state line="17" column="40" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/Analyzer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="38" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.59322035">
           <folding />
         </state>
       </provider>

@@ -45,7 +45,7 @@ Analyzer.prototype = {
         filePath = path.join(this.basePath, filePath);
         mockDefineRunner.getDefinitions(filePath, function (definitions) {
             var result = analyzeDependencies(definitions);
-            console.log(require('util').inspect(result));
+            console.log('dependencies:' + require('util').inspect(result));
             callback(result.name, result.dependencies);
         });
     }
