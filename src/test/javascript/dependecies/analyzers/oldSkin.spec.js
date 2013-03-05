@@ -17,7 +17,7 @@ describe('oldSkin', function () {
         }, 'definitions to be parsed', 200);
         runs(function () {
             var analyzer = requireSrc('analyzers/oldskin.js');
-            this.dependencies = analyzer(definitions);
+            this.dependencies = analyzer(definitions).dependencies;
         });
     });
 

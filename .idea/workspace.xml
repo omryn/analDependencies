@@ -9,22 +9,22 @@
     <file path="/analyzer.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361216203669" ignored="false" />
     <file path="/MockDefine.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361875023489" ignored="false" />
     <file path="/MockDefine.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361803547050" ignored="false" />
-    <file path="/Analyzer.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362054269577" ignored="false" />
-    <file path="/oldSkin.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361983937589" ignored="false" />
-    <file path="/Analyzer.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362045797958" ignored="false" />
+    <file path="/Analyzer.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362150066734" ignored="false" />
+    <file path="/oldSkin.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362214152057" ignored="false" />
+    <file path="/Analyzer.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362223790327" ignored="false" />
     <file path="/index.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361216049494" ignored="false" />
     <file path="$PROJECT_DIR$/../js-tutorial/src/javascript/js-tutorial.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361353770166" ignored="false" />
     <file path="/js-tutorial.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361353770166" ignored="false" />
     <file path="$PROJECT_DIR$/../bootstrap/src/main/javascript/bootstrap/~Setup.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361865183832" ignored="false" />
-    <file path="/Dummy.txt" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361877090903" ignored="false" />
+    <file path="/Dummy.txt" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362054607310" ignored="false" />
     <file path="$PROJECT_DIR$/../skins/pom.xml" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361877889947" ignored="false" />
     <file path="/a.dummy" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361968464018" ignored="false" />
-    <file path="/MockDefineRunner.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361920461801" ignored="false" />
+    <file path="/MockDefineRunner.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362219304619" ignored="false" />
     <file path="/MockDefineRunner.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361888986769" ignored="false" />
     <file path="/MethodCallsLogger.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361875502593" ignored="false" />
-    <file path="/MethodCallsLogger.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361881805380" ignored="false" />
+    <file path="/MethodCallsLogger.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362144647994" ignored="false" />
     <file path="/MockDefinition.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361880123748" ignored="false" />
-    <file path="/oldSkin.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361972404317" ignored="false" />
+    <file path="/oldSkin.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362219470146" ignored="false" />
     <file path="/src.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361921515603" ignored="false" />
     <file path="/resource.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361921590697" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/cssstyle/lib/CSSStyleDeclaration.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361919898373" ignored="false" />
@@ -41,6 +41,9 @@
     <file path="/requireSrc.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361920519033" ignored="false" />
     <file path="/MediaManagerApi.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361964175933" ignored="false" />
     <file path="/PhotoGalleryGridDefaultSkin.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361983974241" ignored="false" />
+    <file path="$PROJECT_DIR$/../alias/test/javascript/alias.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362056497503" ignored="false" />
+    <file path="/assert.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362226639664" ignored="false" />
+    <file path="/fragment.js2" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362147856555" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,28 +107,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PhotoGalleryGridDefaultSkin.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/PhotoGalleryGridDefaultSkin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="67" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Analyzer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/javascript/Analyzer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="43" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+            <state line="15" column="52" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MockDefineRunner.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/javascript/MockDefineRunner.js">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/javascript/analyzers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="11" selection-start="204" selection-end="204" vertical-scroll-proportion="0.25538972">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oldSkin.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/javascript/analyzers/oldSkin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="13" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assert.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/javascript/assert.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="6" selection-start="586" selection-end="586" vertical-scroll-proportion="0.22881356">
               <folding />
             </state>
           </provider>
@@ -140,31 +152,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Analyzer.spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/Analyzer.spec.js">
+      <file leaf-file-name="MockDefineRunner.spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/MockDefineRunner.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="28" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+            <state line="9" column="30" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkinWithDeepDependencies.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/SkinWithDeepDependencies.js">
+      <file leaf-file-name="oldSkin.spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="48" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1362045098000" expanded="true" signature="15:127" placeholder="{&quot;name&quot;: 'skin.with.deep.Dependencies'...}" />
-                <marker date="1362045098000" expanded="true" signature="69:125" placeholder="{&quot;Extends&quot;: 'skin.with.shallow.Dependencies'...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SkinWithShallowDependencies.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/SkinWithShallowDependencies.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+            <state line="19" column="66" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -173,7 +173,16 @@
       <file leaf-file-name="MockDefinition.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/MockDefinition.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+            <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Analyzer.spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/Analyzer.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="49" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,16 +191,7 @@
       <file leaf-file-name="ButtonSkin.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="41" selection-start="98" selection-end="124" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="untitledanalDependencies.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/untitledanalDependencies.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="1" column="25" selection-start="27" selection-end="50" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -207,22 +207,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/javascript/MethodCallsLogger.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/MockDefineRunner.js" />
         <option value="$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkin.js" />
         <option value="$PROJECT_DIR$/src/test/javascript/helpers/src.js" />
-        <option value="$PROJECT_DIR$/src/test/javascript/dependecies/MockDefineRunner.spec.js" />
         <option value="$PROJECT_DIR$/src/main/javascript/analyzers/MediaManagerApi.js" />
         <option value="$PROJECT_DIR$/src/test/javascript/helpers/requireSrc.js" />
         <option value="$PROJECT_DIR$/src/test/javascript/helpers/resource.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/analyzers/oldSkin.js" />
-        <option value="$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js" />
         <option value="$PROJECT_DIR$/src/test/resources/old-skins/PhotoGalleryGridDefaultSkin.js" />
         <option value="$PROJECT_DIR$/src/test/resources/SkinWithSimpleDependencies.js" />
         <option value="$PROJECT_DIR$/src/test/resources/SkinWithDeepDependencies.js" />
         <option value="$PROJECT_DIR$/src/test/resources/SkinWithShallowDependencies.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/Analyzer.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/MethodCallsLogger.js" />
         <option value="$PROJECT_DIR$/src/test/javascript/dependecies/Analyzer.spec.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/analyzers/oldSkin.js" />
+        <option value="$PROJECT_DIR$/src/test/javascript/dependecies/MockDefineRunner.spec.js" />
+        <option value="$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/Analyzer.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/assert.js" />
       </list>
     </option>
   </component>
@@ -230,6 +230,38 @@
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="774" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -257,7 +289,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -479,6 +510,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,8 +519,8 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="editing.templates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootstrap" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alias" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -624,7 +656,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -638,10 +669,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -701,49 +733,11 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/analyzers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/MockDefineRunner.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/helpers/requireSrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/helpers/resource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/analyzers/oldSkin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="39" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="77" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/PhotoGalleryGridDefaultSkin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="67" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0">
@@ -751,33 +745,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/MockDefinition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untitledanalDependencies.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/SkinWithDeepDependencies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="48" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1362045098000" expanded="true" signature="15:127" placeholder="{&quot;name&quot;: 'skin.with.deep.Dependencies'...}" />
-            <marker date="1362045098000" expanded="true" signature="69:125" placeholder="{&quot;Extends&quot;: 'skin.with.shallow.Dependencies'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="98" selection-end="124" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -789,6 +764,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/MethodCallsLogger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="14" selection-end="93" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/MockDefineRunner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/MethodCallsLogger.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="44" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
@@ -796,23 +785,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="25" selection-start="27" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/MockDefinition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/MockDefineRunner.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="66" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/Analyzer.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+        <state line="15" column="49" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/analyzers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/analyzers/oldSkin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="13" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javascript/Analyzer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="43" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+        <state line="15" column="52" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/MockDefineRunner.js">
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/assert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="204" selection-end="204" vertical-scroll-proportion="0.25538972">
+        <state line="24" column="6" selection-start="586" selection-end="586" vertical-scroll-proportion="0.22881356">
           <folding />
         </state>
       </provider>

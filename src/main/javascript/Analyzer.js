@@ -3,29 +3,31 @@ var path = require('path');
 var fs = require('fs');
 var _ = require('underscore');
 var mockDefineRunner = require('./MockDefineRunner.js');
+var assert = require('./assert.js');
 
 function Analyzer(basePath) {
     this.setBasePath(basePath || process.cwd());
-    this.cache = {};
 }
 
 function analyzeDependencies(definitions) {
     var analyzers = require('./analyzers/index');
 
     function extractDependenciesOfMethodCalls(methodName) {
-        var analyzer = analyzers[methodName];
-        var dependenciesPerCall = definitions[methodName] && analyzer && definitions[methodName].map(function (args) {
-            return analyzer.apply(null, args);
-        });
-        return dependenciesPerCall;
+        var analyzer = assert(analyzers[ methodName], "missing analyser: " + methodName);
+        var dependenciesPerCall = assert(definitions, methodName, "missing method definition: " + methodName)
+            .map(function (args) {
+                return analyzer.apply(null, args);
+            });
+        return dependenciesPerCall.dependencies;
     }
 
     var calledMethods = Object.keys(definitions);
-    var dependencies = calledMethods.map(extractDependenciesOfMethodCalls);
-    return _.chain(dependencies)
+    var dependencies = _.chain(calledMethods)
+        .map(extractDependenciesOfMethodCalls)
         .flatten()
         .compact()
         .value();
+    return dependencies;
 }
 
 Analyzer.prototype = {
@@ -40,17 +42,12 @@ Analyzer.prototype = {
 
 
     extractDirectDependenciesOf: function (filePath, callback) {
-        var self = this;
         filePath = path.join(this.basePath, filePath);
         mockDefineRunner.getDefinitions(filePath, function (definitions) {
-            var directDependencies = analyzeDependencies(definitions);
-            self.cache[filePath] = directDependencies;
-            callback(directDependencies);
+            var result = analyzeDependencies(definitions);
+            console.log(require('util').inspect(result));
+            callback(result.name, result.dependencies);
         });
-    },
-
-    extractDependenciesMap: function (files, callback) {
-
     }
 };
 

@@ -13,7 +13,8 @@ describe('Analyzer', function () {
             describe('skin analysis', function () {
                 describe('oldSkin', function () {
                     it('should extract "Extends" dependencies', function (done) {
-                        analyzer.extractDirectDependenciesOf('old-skins/ButtonSkin.js', function (dependencies) {
+                        analyzer.extractDirectDependenciesOf('old-skins/ButtonSkin.js', function (name, dependencies) {
+                            expect(name).toBe('skins.core.ButtonSkin');
                             expect(dependencies).toEqual(['mobile.core.skins.BaseSkin']);
                             done();
                         });

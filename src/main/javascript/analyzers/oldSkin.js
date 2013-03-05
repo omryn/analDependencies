@@ -34,10 +34,20 @@ function extractSimpleFields(dependencies, definition) {
     }
 }
 
+function extractName(definition) {
+    return definition.name;
+}
+
+
 module.exports = function (definition) {
     var dependencies = [];
+    var result = {};
+
     extractSimpleFields(dependencies, definition)
     extractComps(dependencies, definition);
     extractHtml(dependencies, definition);
-    return dependencies;
+
+    result.name = extractName(definition);
+    result.dependencies = dependencies;
+    return result;
 };
