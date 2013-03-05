@@ -42,7 +42,7 @@
     <file path="/MediaManagerApi.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361964175933" ignored="false" />
     <file path="/PhotoGalleryGridDefaultSkin.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361983974241" ignored="false" />
     <file path="$PROJECT_DIR$/../alias/test/javascript/alias.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362056497503" ignored="false" />
-    <file path="/assert.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362226639664" ignored="false" />
+    <file path="/assert.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362485825690" ignored="false" />
     <file path="/fragment.js2" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362147856555" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,7 @@
       <file leaf-file-name="Analyzer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/javascript/Analyzer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="52" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+            <state line="15" column="33" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,7 +137,7 @@
       <file leaf-file-name="assert.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/javascript/assert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="6" selection-start="586" selection-end="586" vertical-scroll-proportion="0.22881356">
+            <state line="42" column="56" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.3559322">
               <folding />
             </state>
           </provider>
@@ -836,14 +836,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javascript/Analyzer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+        <state line="15" column="33" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javascript/assert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="586" selection-end="586" vertical-scroll-proportion="0.22881356">
+        <state line="42" column="56" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.3559322">
           <folding />
         </state>
       </provider>

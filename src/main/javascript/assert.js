@@ -35,12 +35,12 @@ function assert(value, field, assertion, message) {
     if (!message) {
         if (typeof assertion == 'string') {
             message = assertion;
-            console.log('using assertion: ' + assertion);
             assertion = assert.default;
         } else {
             if (typeof field == 'string') {
                 message = field;
                 field = undefined;
+                assertion = assertion || assert.default;
             } else {
                 throw new Error('Invalid assertion: no message defined');
             }
@@ -48,7 +48,7 @@ function assert(value, field, assertion, message) {
     }
 
     if(!assertion) {
-        throw new Error(argsAsArray(arguments).join())
+        throw new Error('Assert error. aruments: <' + argsAsArray(arguments).join() + '>');
     }
 
     value = getValueToAssert(field, value);
