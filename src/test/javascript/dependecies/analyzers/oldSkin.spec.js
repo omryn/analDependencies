@@ -17,27 +17,30 @@ describe('oldSkin', function () {
         }, 'definitions to be parsed', 200);
         runs(function () {
             var analyzer = requireSrc('analyzers/oldskin.js');
-            this.dependencies = analyzer(definitions).dependencies;
+            this.result =       analyzer(definitions);
         });
     });
 
     describe('when analyzing PhotoGalleryGridDefaultSkin ', function () {
         it('should include dependencies from Extends', function () {
-            expect(this.dependencies).toContain('extended.BaseSkin');
+            expect(this.result.dependencies).toContain('extended.BaseSkin');
         });
         it('should analyze _comps', function(){
-            expect(this.dependencies).toContain('dependency.from.comp.Skin');
-            expect(this.dependencies).toContain('other.dependency.from.comp.Skin');
+            expect(this.result.dependencies).toContain('dependency.from.comp.Skin');
+            expect(this.result.dependencies).toContain('other.dependency.from.comp.Skin');
         });
         it('should analyze _html', function(){
-            expect(this.dependencies).toContain('dependency.from.html.Skin');
-            expect(this.dependencies).toContain('other.dependency.from.html.Skin');
+            expect(this.result.dependencies).toContain('dependency.from.html.Skin');
+            expect(this.result.dependencies).toContain('other.dependency.from.html.Skin');
         });
         it('should analyze itemSkinClassName', function(){
-            expect(this.dependencies).toContain('item.skin.class.Name');
+            expect(this.result.dependencies).toContain('item.skin.class.Name');
         });
         it('should analyze fullScreenViewSkinClassName', function(){
-            expect(this.dependencies).toContain('full.screen.view.skin.class.Name');
+            expect(this.result.dependencies).toContain('full.screen.view.skin.class.Name');
+        });
+        it('should extract the skin name', function(){
+            expect(this.result.name).toBe('skins.core.PhotoGalleryGridDefaultSkin');
         });
     });
 });

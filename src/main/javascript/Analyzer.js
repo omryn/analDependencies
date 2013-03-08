@@ -9,25 +9,30 @@ function Analyzer(basePath) {
     this.setBasePath(basePath || process.cwd());
 }
 
-function analyzeDependencies(definitions) {
+
+function analyzeDependencies(definitions, self) {
     var analyzers = require('./analyzers/index');
 
     function extractDependenciesOfMethodCalls(methodName) {
         var analyzer = assert(analyzers[ methodName], "missing analyser: " + methodName);
         var dependenciesPerCall = assert(definitions, methodName, "missing method definition: " + methodName)
             .map(function (args) {
-                return analyzer.apply(null, args);
+                var analyzedResult = analyzer.apply(null, args);
+                return analyzedResult;
             });
-        return dependenciesPerCall.dependencies;
+        return dependenciesPerCall;
     }
 
     var calledMethods = Object.keys(definitions);
-    var dependencies = _.chain(calledMethods)
+    var rawDependencies = _.chain(calledMethods)
         .map(extractDependenciesOfMethodCalls)
         .flatten()
-        .compact()
         .value();
-    return dependencies;
+
+    console.log('raw dependencies:' + require('util').inspect(rawDependencies));
+    var byName = self._groupByName(rawDependencies);
+    console.log('dependencies by name:' + require('util').inspect(byName));
+    return byName;
 }
 
 Analyzer.prototype = {
@@ -42,12 +47,25 @@ Analyzer.prototype = {
 
 
     extractDirectDependenciesOf: function (filePath, callback) {
+        var self = this;
         filePath = path.join(this.basePath, filePath);
         mockDefineRunner.getDefinitions(filePath, function (definitions) {
-            var result = analyzeDependencies(definitions);
-            console.log('dependencies:' + require('util').inspect(result));
-            callback(result.name, result.dependencies);
+            var result = analyzeDependencies(definitions, self);
+            callback(result);
         });
+    },
+
+    _groupByName: function (rawDependencies) {
+        return _.reduce(rawDependencies, function (result, item) {
+            var dependencies = _.chain(item.dependencies)
+                .union(result[item.name] || [])
+                .uniq()
+                .sort()
+                .value();
+
+            result[item.name] = dependencies;
+            return result;
+        }, {});
     }
 };
 
