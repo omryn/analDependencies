@@ -17,7 +17,7 @@ module.exports = {
 
                 global.define = temp;
 
-                callback(result);
+                callback(null, result);
             }
         })
     }

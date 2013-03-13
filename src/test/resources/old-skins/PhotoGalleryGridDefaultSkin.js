@@ -15,7 +15,7 @@ define.oldSkin({
         ],
 
         _html: '<div skinPart="img" skin="dependency.from.html.Skin"></div>' +
-                '<div skinPart="photoFullScreen" skin="other.dependency.from.html.Skin"></div>',
+            '<div skinPart="photoFullScreen" skin="other.dependency.from.html.Skin"></div>',
 
         _css: [
             '{text-align:center; overflow:hidden; margin-bottom:[componentSpacing]}',

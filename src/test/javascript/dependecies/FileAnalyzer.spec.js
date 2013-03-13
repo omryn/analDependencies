@@ -1,33 +1,26 @@
-var Analyzer = require('../../../main/javascript/Analyzer.js');
 var path = require('path');
-var self;
+var requireSrc = require('../helpers/requireSrc.js');
+var resource = require('../helpers/resource.js');
 
-describe('Analyzer', function () {
-        var analyzer;
-
-        beforeEach(function () {
-            analyzer = new Analyzer(path.join(__dirname, '../../resources'));
-        });
+describe('FileAnalyzer', function () {
+        var analyzer = requireSrc('FileAnalyzer');
 
         describe('acceptance', function () {
             describe('skin analysis', function () {
                 describe('oldSkin', function () {
                     it('should extract "Extends" dependencies', function (done) {
-                        analyzer.extractDirectDependenciesOf('old-skins/ButtonSkin.js', function (dependencies) {
-                            expect(dependencies).toEqual({
-                                'skins.core.ButtonSkin': ['mobile.core.skins.BaseSkin']
+                        analyzer.extractDirectDependenciesOf(resource('old-skins/ButtonSkin.js'),
+                            function (errors, dependencies) {
+                                expect(dependencies).toEqual({
+                                    'skins.core.ButtonSkin': ['mobile.core.skins.BaseSkin']
+                                });
+                                expect(errors).toBe(null);
+                                done();
                             });
-                            done();
-                        });
                     }, 200);
                 });
             });
         });
-
-        describe('integration', function () {
-
-        });
-
 
         describe('unit', function () {
             describe('_groupByName', function () {

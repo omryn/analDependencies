@@ -7,12 +7,13 @@ describe('MockDefineRunner', function () {
         it('should return an object with the calls log of define.oldSkin in a script file',
             function (done) {
                 MockDefineRunner.getDefinitions(path.join(__dirname, '../../resources/MockDefinition.js'),
-                    function (result) {
+                    function (errors, result) {
                         expect(result).toEqual({
                             oldSkin: [  // one call to oldSkin
                                 ['mock', 'definition'] // with the arguments: 'mock', 'definition'
                             ]
                         });
+                        expect(errors).toBe(null);
                         done();
                     });
             }, 250);
