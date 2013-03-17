@@ -7,7 +7,7 @@ var resource = require('../../helpers/resource.js');
 var definitions;
 
 requireSrc('MockDefineRunner').getDefinitions(resource('old-skins/PhotoGalleryGridDefaultSkin.js'), function (errors, defs) {
-    definitions = defs.oldSkin[0][0]
+    definitions = defs.oldSkin[0][0];
 });
 
 describe('oldSkin', function () {

@@ -13,12 +13,12 @@ module.exports = {
                 global.define = new MethodCallsLogger({oldSkin: true});
 
                 vm.runInThisContext(script);
-                var result = define.callsLog;
+                var result = global.define.callsLog;
 
                 global.define = temp;
 
                 callback(null, result);
             }
-        })
+        });
     }
-}
+};

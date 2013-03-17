@@ -9,9 +9,9 @@ function createLogMethods(scope, methods) {
             var args = argsAsArray(arguments);
             scope.callsLog[name] = scope.callsLog[name] || [];
             scope.callsLog[name].push(args);
-        }
+        };
     });
-};
+}
 
 function MethodCallsLogger(methods) {
     this.callsLog = {};

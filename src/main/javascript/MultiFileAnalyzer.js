@@ -1,6 +1,5 @@
+"use strict";
 var _ = require('underscore');
-var path = require('path');
-var fs = require('fs');
 var fileAnalyzer = require('./FileAnalyzer');
 
 /**
@@ -8,14 +7,15 @@ var fileAnalyzer = require('./FileAnalyzer');
  * @constructor
  */
 function MultiFileAnalyzer() {
+    this.ignoredDependencies = [];
 }
 
-/**
- *
- * @param {Array<String>} filesArray files to analyze
- * @param {Function} callback
- */
 MultiFileAnalyzer.prototype = {
+    /**
+     *
+     * @param {Array<String>} filesArray files to analyze
+     * @param {Function} callback
+     */
     extractDependencies: function (filesArray, callback) {
         this.results = this.results || {};
         this.errors = this.errors || [];
@@ -25,12 +25,19 @@ MultiFileAnalyzer.prototype = {
         }, this);
     },
 
-    calcuclateDependenciesOfDependencies: function () {
+    /**
+     *
+     */
+    setIgnoredDependencies: function (ignoredDependenciesArray) {
+        this.ignoredDependencies = ignoredDependenciesArray;
+    },
+
+    _calculateDependenciesOfDependencies: function () {
         var knownDependencies = _.keys(this.results);
         var updated;
         var self = this;
 
-        function explodeKnowDependencies(name) {
+        function getExpandedDependencies(name) {
             return _.union([name], self.results[name] || []);
         }
 
@@ -38,28 +45,39 @@ MultiFileAnalyzer.prototype = {
             return self.results[name];
         }
 
+        function removeEntriesWithNoDependencies(name) {
+             if (knownDependenciesOf(name).length === 0) {
+                 delete self.results[name];
+             }
+        }
+
+        function expandDependencies(name) {
+            var dependencies = _.chain(knownDependenciesOf(name))
+                .difference(self.ignoredDependencies)
+                .map(getExpandedDependencies)
+                .flatten()
+                .uniq()
+                .without(name)
+                .sort()
+                .value();
+            if (self.results[name].length !== dependencies.length) {
+                updated = true;
+                self.results[name] = dependencies;
+            }
+        }
         do {
             updated = false;
-            knownDependencies.forEach(function (name) {
-                var dependencies = _.chain(knownDependenciesOf(name))
-                    .map(explodeKnowDependencies)
-                    .flatten()
-                    .uniq()
-                    .without(name)
-                    .sort()
-                    .value();
-                if (this.results[name].length !== dependencies.length) {
-                    updated = true;
-                    this.results[name] = dependencies;
-                }
-            }, this);
+            knownDependencies.forEach(expandDependencies);
         } while (updated);
+
+
+        knownDependencies.forEach(removeEntriesWithNoDependencies);
     },
 
     _checkPendingResults: function (finalCallback) {
         if (this.pendingCallbacks && this.pendingCallbacks.length === 0) {
             this.errors = (this.errors && this.errors.length > 0) ? this.errors : null;
-            this.calcuclateDependenciesOfDependencies();
+            this._calculateDependenciesOfDependencies();
             finalCallback(this.errors, this.results);
         }
     },
@@ -72,7 +90,7 @@ MultiFileAnalyzer.prototype = {
             self._addToResults(errors, newResults);
             self.pendingCallbacks = _.without(self.pendingCallbacks, callback);
             process.nextTick(self._checkPendingResults.bind(self, finalCallback));
-        }
+        };
 
         this.pendingCallbacks.push(callback);
         return callback;
@@ -84,12 +102,11 @@ MultiFileAnalyzer.prototype = {
             delete this.results[duplication];
             delete newResults[duplication];
             this.errors.push(
-                {type: 'duplicate definition', name: 'a'}
-            )
-        }, this)
+                {type: 'duplicate definition', name: duplication}
+            );
+        }, this);
         this.results = _.extend(this.results, newResults);
     }
-}
-;
+};
 
 module.exports = MultiFileAnalyzer;

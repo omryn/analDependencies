@@ -16,6 +16,7 @@ describe('MultiFileAnalyzer', function () {
     });
 
     describe('acceptance:', function () {
+
         it('should create an object with all dependencies of named definitions', function (done) {
             this.multiFileAnalizer.extractDependencies(
                 [resource('old-skins/ButtonSkin.js'), resource('old-skins/ButtonSkin2.js')],
@@ -27,7 +28,7 @@ describe('MultiFileAnalyzer', function () {
                     expect(errors).toBeFalsy();
                     done();
                 }
-            )
+            );
         }, 200);
 
         it('should calculate dependencies of dependencies', function (done) {
@@ -41,7 +42,7 @@ describe('MultiFileAnalyzer', function () {
                     expect(errors).toBeFalsy();
                     done();
                 }
-            )
+            );
         }, 200);
     });
 
@@ -74,6 +75,39 @@ describe('MultiFileAnalyzer', function () {
                 });
         }, 50);
 
+        it('should exclude known dependencies from results', function (done) {
+            this.mockResults = {
+                fileA: [null, {a: ['A1','A2','A3']}]
+            };
+
+            this.multiFileAnalizer.setIgnoredDependencies(['A1','A2']);
+
+            this.multiFileAnalizer.extractDependencies(
+                ['fileA'],
+                function (errors, dependencies) {
+                    expect(dependencies).toEqual({
+                        a: ['A3']
+                    });
+                    expect(errors).toBeFalsy();
+                    done();
+                });
+        }, 50);
+
+        it('should exclude entries with no dependencies', function (done) {
+            this.mockResults = {
+                fileA: [null, {a: []}]
+            };
+
+             this.multiFileAnalizer.extractDependencies(
+                ['fileA'],
+                function (errors, dependencies) {
+                    expect(dependencies).toEqual({
+                    });
+                    expect(errors).toBeFalsy();
+                    done();
+                });
+        }, 50);
+
         it('should calculate dependencies of known dependencies', function (done) {
             this.mockResults = {
                 fileA: [null, {a: ['b']}],
@@ -85,8 +119,8 @@ describe('MultiFileAnalyzer', function () {
                 ['fileA', 'fileB', 'fileC'],
                 function (errors, dependencies) {
                     expect(dependencies).toEqual({
-                        a: ['b','c','d'],
-                        b: ['c','d'],
+                        a: ['b', 'c', 'd'],
+                        b: ['c', 'd'],
                         c: ['d']
                     });
                     expect(errors).toBeFalsy();
@@ -112,4 +146,4 @@ describe('MultiFileAnalyzer', function () {
                 });
         }, 50);
     });
-})
+});

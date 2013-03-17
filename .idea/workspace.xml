@@ -10,23 +10,23 @@
     <file path="/MockDefine.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361875023489" ignored="false" />
     <file path="/MockDefine.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361803547050" ignored="false" />
     <file path="/Analyzer.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362731090780" ignored="false" />
-    <file path="/oldSkin.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362214152057" ignored="false" />
+    <file path="/oldSkin.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363189921111" ignored="false" />
     <file path="/Analyzer.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362731189928" ignored="false" />
-    <file path="/index.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363176250794" ignored="false" />
+    <file path="/index.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363189995405" ignored="false" />
     <file path="$PROJECT_DIR$/../js-tutorial/src/javascript/js-tutorial.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361353770166" ignored="false" />
     <file path="/js-tutorial.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361353770166" ignored="false" />
     <file path="$PROJECT_DIR$/../bootstrap/src/main/javascript/bootstrap/~Setup.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361865183832" ignored="false" />
-    <file path="/Dummy.txt" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363096494860" ignored="false" />
+    <file path="/Dummy.txt" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363194167304" ignored="false" />
     <file path="$PROJECT_DIR$/../skins/pom.xml" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362582671742" ignored="false" />
     <file path="/a.dummy" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363176949700" ignored="false" />
     <file path="/MockDefineRunner.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363169154794" ignored="false" />
-    <file path="/MockDefineRunner.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363169004742" ignored="false" />
+    <file path="/MockDefineRunner.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363190316470" ignored="false" />
     <file path="/MethodCallsLogger.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361875502593" ignored="false" />
     <file path="/MethodCallsLogger.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362144647994" ignored="false" />
     <file path="/MockDefinition.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361880123748" ignored="false" />
     <file path="/oldSkin.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363169041938" ignored="false" />
     <file path="/src.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361921515603" ignored="false" />
-    <file path="/resource.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361921590697" ignored="false" />
+    <file path="/resource.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363189062409" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/cssstyle/lib/CSSStyleDeclaration.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361919898373" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/tmp/jquery.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361919898373" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/lib/node-jquery.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361919898373" ignored="false" />
@@ -38,13 +38,13 @@
     <file path="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/lib/jsdom/level2/html.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361919898373" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/cssstyle/lib/properties/src.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361919898373" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/jasmine-node/node_modules/jasmine-reporters/ext/env.rhino.1.2.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361919898373" ignored="false" />
-    <file path="/requireSrc.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363176898997" ignored="false" />
+    <file path="/requireSrc.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363188662510" ignored="false" />
     <file path="/MediaManagerApi.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361964175933" ignored="false" />
     <file path="/PhotoGalleryGridDefaultSkin.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1361983974241" ignored="false" />
     <file path="$PROJECT_DIR$/../alias/test/javascript/alias.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362056497503" ignored="false" />
-    <file path="/assert.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362486229973" ignored="false" />
+    <file path="/assert.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363189839833" ignored="false" />
     <file path="/fragment.js2" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362147856555" ignored="false" />
-    <file path="/MutilFileAnalyzer.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363182958659" ignored="false" />
+    <file path="/MutilFileAnalyzer.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363271095094" ignored="false" />
     <file path="/async-callback.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362762692210" ignored="false" />
     <file path="$PROJECT_DIR$/../jasmine-node/lib/jasmine-node/async-callback.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362769484382" ignored="false" />
     <file path="$PROJECT_DIR$/../jasmine-node/spec/async-callback_spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1362762589652" ignored="false" />
@@ -59,9 +59,9 @@
     <file path="$PROJECT_DIR$/../bootstrap/src/main/javascript/bootstrap/bootstrap/scriptloader/ScriptLoader.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363008666129" ignored="false" />
     <file path="$PROJECT_DIR$/../bootstrap/src/main/javascript/bootstrap/bootstrap/scriptloader/WixBlob.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363096612183" ignored="false" />
     <file path="$PROJECT_DIR$/../jasmine-matchers/matchers/jasmine-matchers.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363176145073" ignored="false" />
-    <file path="/MultiFileAnalyzer.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363182509071" ignored="false" />
+    <file path="/MultiFileAnalyzer.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363277675523" ignored="false" />
     <file path="/FileAnalyzer.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363178156360" ignored="false" />
-    <file path="/FileAnalyzer.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363178407134" ignored="false" />
+    <file path="/FileAnalyzer.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363189503420" ignored="false" />
     <file path="$PROJECT_DIR$/../jasmine-matchers/README.md" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363169428094" ignored="false" />
     <file path="/README.md" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363169428094" ignored="false" />
     <file path="$PROJECT_DIR$/../jasmine-matchers/index.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363176266183" ignored="false" />
@@ -72,7 +72,12 @@
     <file path="/jasmine-matchers.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363175932339" ignored="false" />
     <file path="$PROJECT_DIR$/../jasmine-matchers/node-matchers/jasmine-node-matchers.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363176131707" ignored="false" />
     <file path="/jasmine-node-matchers.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363175987616" ignored="false" />
-    <file path="/jasmine-matchers.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363179164263" ignored="false" />
+    <file path="/jasmine-matchers.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363189082899" ignored="false" />
+    <file path="/analyze_dependencies.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363278141506" ignored="false" />
+    <file path="/package.json" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363187645268" ignored="false" />
+    <file path="/Gruntfile.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363277748159" ignored="false" />
+    <file path="/gruntresults.spec.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363193067813" ignored="false" />
+    <file path="$PROJECT_DIR$/../grunt-jasmine-node/tasks/jasmine-node-task.js" changelist="bfc5a994-cd58-4cba-805c-4651e118e48e" time="1363194310629" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,28 +141,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jasmine-matchers.spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/javascript/helpers/jasmine-matchers.spec.js">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="103" selection-start="4427" selection-end="4427" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileAnalyzer.spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/FileAnalyzer.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MutilFileAnalyzer.spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/MutilFileAnalyzer.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="27" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
+            <state line="42" column="43" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,7 +153,7 @@
       <file leaf-file-name="analyze_dependencies.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/javascript/grunttasks/analyze_dependencies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="22" column="58" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.5356551">
               <folding />
             </state>
           </provider>
@@ -175,34 +162,16 @@
       <file leaf-file-name="ButtonSkin.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="32" selection-start="27" selection-end="50" vertical-scroll-proportion="0.0">
+            <state line="3" column="36" selection-start="83" selection-end="109" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonSkinChild.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkinChild.js">
+      <file leaf-file-name="MutilFileAnalyzer.spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/MutilFileAnalyzer.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="40" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileAnalyzer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/javascript/FileAnalyzer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="7" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requireSrc.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/javascript/helpers/requireSrc.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="38" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+            <state line="104" column="23" selection-start="3836" selection-end="3836" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -211,16 +180,52 @@
       <file leaf-file-name="MultiFileAnalyzer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/javascript/MultiFileAnalyzer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="19" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+            <state line="30" column="26" selection-start="694" selection-end="716" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonSkin2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkin2.js">
+      <file leaf-file-name="FileAnalyzer.spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/FileAnalyzer.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="33" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oldSkin.spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="28" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oldSkin.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/javascript/analyzers/oldSkin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="8" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gruntresults.spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/javascript/grunt/gruntresults.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="15" selection-start="872" selection-end="872" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="45" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -236,21 +241,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/old-skins/PhotoGalleryGridDefaultSkin.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/MockDefineRunner.js" />
-        <option value="$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js" />
-        <option value="$PROJECT_DIR$/src/test/javascript/dependecies/MockDefineRunner.spec.js" />
-        <option value="$PROJECT_DIR$/src/test/javascript/helpers/matchers.js" />
-        <option value="$PROJECT_DIR$/src/test/javascript/dependecies/prep.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkin2.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/FileAnalyzer.js" />
-        <option value="$PROJECT_DIR$/src/test/javascript/dependecies/FileAnalyzer.spec.js" />
         <option value="$PROJECT_DIR$/src/test/javascript/helpers/requireSrc.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/MultiFileAnalyzer.js" />
+        <option value="$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js" />
+        <option value="$PROJECT_DIR$/src/test/javascript/dependecies/FileAnalyzer.spec.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/assert.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/analyzers/index.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/MethodCallsLogger.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/MockDefineRunner.js" />
         <option value="$PROJECT_DIR$/src/test/javascript/helpers/jasmine-matchers.spec.js" />
-        <option value="$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkinChild.js" />
+        <option value="$PROJECT_DIR$/src/test/resources/SkinWithShallowDependencies.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/main/javascript/analyzers/oldSkin.js" />
         <option value="$PROJECT_DIR$/src/test/javascript/dependecies/MutilFileAnalyzer.spec.js" />
+        <option value="$PROJECT_DIR$/src/test/javascript/grunt/gruntresults.spec.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/MultiFileAnalyzer.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/main/javascript/grunttasks/analyze_dependencies.js" />
       </list>
     </option>
@@ -431,6 +436,10 @@
               <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -536,6 +545,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analDependencies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analDependencies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analyzers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -545,11 +580,11 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jasmine-matchers" />
+    <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSHint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../grunt-jasmine-node" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -562,8 +597,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/old-skins" />
       <recent name="$PROJECT_DIR$/src/test/javascript/helpers" />
+      <recent name="$PROJECT_DIR$/src/test/resources/old-skins" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test/resources/oldSkins" />
     </key>
@@ -769,114 +804,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/PhotoGalleryGridDefaultSkin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="12" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/helpers/resource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="62" selection-end="62" vertical-scroll-proportion="0.07462686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javascript/MockDefineRunner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="31" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+        <state line="23" column="2" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/MockDefinition.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="118" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/MockDefineRunner.spec.js">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/SkinWithDeepDependencies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="50" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
+        <state line="3" column="40" selection-start="88" selection-end="118" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/SkinWithShallowDependencies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkin2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/FileAnalyzer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/FileAnalyzer.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/helpers/requireSrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="38" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/MultiFileAnalyzer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="19" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+        <state line="1" column="41" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/javascript/helpers/jasmine-matchers.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="103" selection-start="4427" selection-end="4427" vertical-scroll-proportion="0.0">
+        <state line="14" column="49" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkinChild.js">
+    <entry file="file://$PROJECT_DIR$/src/test/javascript/helpers/jasmine-node-matchers.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="40" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+        <state line="14" column="23" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkin.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="32" selection-start="27" selection-end="50" vertical-scroll-proportion="0.0">
+        <state line="18" column="45" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/FileAnalyzer.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/analyzers/oldSkin.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="28" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/analyzers/oldSkin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="8" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/javascript/dependecies/MutilFileAnalyzer.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
+        <state line="104" column="23" selection-start="3836" selection-end="3836" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javascript/grunt/gruntresults.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="15" selection-start="872" selection-end="872" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/old-skins/ButtonSkin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="83" selection-end="109" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="43" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/MultiFileAnalyzer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="26" selection-start="694" selection-end="716" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javascript/grunttasks/analyze_dependencies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="22" column="58" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.5356551">
           <folding />
         </state>
       </provider>

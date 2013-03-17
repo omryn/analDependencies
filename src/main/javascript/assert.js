@@ -2,7 +2,7 @@
 /******** Helpers ******/
 function getValueToAssert(field, value) {
     field = field || [];
-    if (typeof field == 'string') {
+    if (typeof field === 'string') {
         field = [field];
     }
 
@@ -11,7 +11,7 @@ function getValueToAssert(field, value) {
         if (assertValue) {
             assertValue = assertValue[fieldName];
         } else {
-            throw new Error('Assertion error: no such field: value.' + field.join());
+            throw new Error('Assertion error: no such field: value.' + field.join(','));
         }
     });
     return assertValue;
@@ -33,14 +33,14 @@ function argsAsArray(args) {
  */
 function assert(value, field, assertion, message) {
     if (!message) {
-        if (typeof assertion == 'string') {
+        if (typeof assertion === 'string') {
             message = assertion;
-            assertion = assert.default;
+            assertion = assert.defaultAssert;
         } else {
-            if (typeof field == 'string') {
+            if (typeof field === 'string') {
                 message = field;
                 field = undefined;
-                assertion = assertion || assert.default;
+                assertion = assertion || assert.defaultAssert;
             } else {
                 throw new Error('Invalid assertion: no message defined');
             }
@@ -48,7 +48,7 @@ function assert(value, field, assertion, message) {
     }
 
     if(!assertion) {
-        throw new Error('Assert internal error. arguments: <' + argsAsArray(arguments).join() + '>');
+        throw new Error('Assert internal error. arguments: <' + argsAsArray(arguments).join(',') + '>');
     }
 
     value = getValueToAssert(field, value);
@@ -64,7 +64,7 @@ assert.defined = function (value) {
     return value !== undefined;
 };
 
-assert.default = assert.defined;
+assert.defaultAssert = assert.defined;
 
 assert.truethy = function (value) {
     return !!value;
@@ -76,7 +76,7 @@ assert.inRange = function (min, max, excludeBoundaries) {
             value > min && value < max :
             value >= min && value <= max;
     };
-}
+};
 
 assert.greaterThan = function (greaterThanValue) {
     return function greaterThan(value) {
@@ -86,7 +86,7 @@ assert.greaterThan = function (greaterThanValue) {
 
 assert.lessThan = function (lessThanValue) {
     return function lessThan(value) {
-        return value < greaterThanValue;
+        return value < lessThanValue;
     };
 };
 

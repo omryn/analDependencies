@@ -1,3 +1,4 @@
+"use strict";
 var path = require('path');
 var requireSrc = require('../helpers/requireSrc.js');
 var resource = require('../helpers/resource.js');
@@ -51,13 +52,13 @@ describe('FileAnalyzer', function () {
                     var result = analyzer._groupByName([
                         {name: 'a', dependencies: ['a', 'b']},
                         {name: 'a', dependencies: ['b', 'c']},
-                        {name: 'a', dependencies: ['c', 'd']},
+                        {name: 'a', dependencies: ['c', 'd']}
                     ]);
                     expect(result).toEqual({
                         a: ['a', 'b', 'c', 'd']
                     });
                 });
-            })
+            });
         });
     }
 );

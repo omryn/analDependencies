@@ -1,3 +1,4 @@
+"use strict";
 beforeEach(function () {
     this.addMatchers(
         {

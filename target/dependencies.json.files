@@ -1,0 +1,8 @@
+[
+    "src/test/resources/SkinWithDeepDependencies.js",
+    "src/test/resources/SkinWithShallowDependencies.js",
+    "src/test/resources/old-skins/ButtonSkin.js",
+    "src/test/resources/old-skins/ButtonSkin2.js",
+    "src/test/resources/old-skins/ButtonSkinChild.js",
+    "src/test/resources/old-skins/PhotoGalleryGridDefaultSkin.js"
+]
